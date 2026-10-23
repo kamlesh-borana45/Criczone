@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background:url(image.png);
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    width: 400px;
+    height:500px;
+   
+    background: rgba(53, 53, 72, 0.5);
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter:blur(10px);
+    border:1px solid rgb(46, 46, 236);
+    border-radius: 10px;
+    
+}
+
+h2{
+    color:white;
+    text-transform:uppercase;
+    padding:20px 0;
+}
+
+
+
+.formg{
+    
+    width:330px;
+    margin:30px 0;
+    
+    margin:30px 0 ;
+}
+
+.formg input{
+    width:100%;
+    height:50px;
+    background: transparent;
+    
+    outline: none;
+    
+    font-size:1.2em;
+    color:white;
+    padding:0 30px 0 10px;
+}
+
+.formg input:focus{
+    box-shadow: 0 0 5px 2px rgb(89, 89, 235);
+}
+
+
+
+
+
+
+
+
+p{
+    text-align:center;
+    color:white;
+    padding:10px 0;
+}
+
+
+p a{
+    text-decoration:none;
+    color:white;
+    font-size: 1.5em;
+    
+
+}
+
+p a:hover{
+    border-bottom: 4px solid blue;
+    font-weight:bold;
+
+}
+
+
+
+#btn{
+    width:100%;
+    height:50px;
+    border-radius:10px;
+    border:none;
+    font-size:1.2em;
+    color:white;
+    transition:0.5s;
+
+
+    background:linear-gradient(to right, rgb(89, 89, 235),rgb(55, 55, 238))
+    
+    
+}
+
+
+#btn:hover{
+    zoom:1.1;
+}
+
+

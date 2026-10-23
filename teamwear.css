@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin:0px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   align-items: center;
+    
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
+
+#img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+
+/* main  */
+
+
+
+main{
+    padding-top: 180px;
+}
+
+
+
+
+#container{
+    display: flex;
+    
+    
+    height: 500px;
+    overflow-x: auto;
+    overscroll-behavior-inline:21% ;
+
+}
+
+
+#container .item{
+    margin: 40px;
+    
+}
+
+
+.i{
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+    padding: 2px;
+    background: linear-gradient(to left, rgb(190, 173, 173),black);
+
+}
+
+
+
+
+.fst{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+
+
+
+.fst:hover{
+    background-color: rgb(224, 220, 220);
+    color: black;
+}
+
+
+h3{
+    padding:10px;
+}
+
+
+
+/* footer */
+
+footer{ 
+    padding: 20px ;
+    height: 0px auto;
+    background-color: black;
+    
+}
+
+#fottermain{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.h{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <style>
+
+
+        #container{
+            width: 400px;
+            margin: 0px auto;
+            padding: 20px;
+        }
+
+
+        select{
+            width: 250px; 
+            padding: 10px;
+        }
+        
+        input{
+            width: 250px; 
+            padding: 10px;
+        }
+
+        .pt{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .pta{
+            width: 80px;
+        }
+
+        .a{
+            text-decoration: none;
+            width:200px;
+            background-color: yellow;
+            padding-right: 150px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-radius: 5px;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>Enter a new delivery address</h1>
+
+    <form action="action.php" method="post">
+
+        <label>Country/Region</label><br/> 
+        <select >
+            <option value="">Select Country</option>
+            <option value="India">India</option>
+            <option value="america">America</option>
+            <option value="Australia">Australia</option>
+        </select> <br/> <br/>
+
+        <label>Full name (First and Last name)</label> <br/>
+        <input type="name" placeholder="Username" required> <br/> <br/>
+
+        <label>Mobile number</label> <br/>
+        <input type="tel" placeholder="Mobile Number" required maxlength="10"> <br/> <br/>
+
+        <p>May be used to assist delivery</p>
+        <hr/> <br/>
+
+        <label>Flat, House no., Building, Company,<br/> Apartment</label> <br/>
+        <input type="text" required> <br/> <br>
+
+
+        <label>Area ,Street, Sector, Village</label> <br/>
+        <input type="text" required> <br/> <br>
+
+        <div class="pt">
+            <label>Pincode</label> <br/>
+            <input class="pta" type="tel" required maxlength="6"> <br/> <br>
+
+            <label>Town/City</label> <br/>
+            <input class="pta"  type="text" required> <br/> <br>
+            
+        </div> <br/> <br/>
+
+
+        <label>
+            State
+        </label><br/> 
+        <select >
+            <option value="">Select</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="gj">gj</option>
+            <option value="Mh">Mh</option>
+        </select> <br/> <br/>
+
+        
+        <input style="width: 50px;" type="checkbox" required > Make this my default address <br/> <br/>
+
+        <hr/>
+        <br/> <br/>
+
+        <h2>Delivery instruction [optional]</h2>
+        <p>notes, preferences and more </p>
+        <hr/><br/>
+
+        <a  class="a" href="payment.html">Use this address</a> <br/> <br/> <br/>
+
+        
+
+
+
+
+
+    </form>
+    </div>
+
+            
+
+</body>
+</html>

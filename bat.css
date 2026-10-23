@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin:0px;
+    background-color: whitesmoke;
+
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   align-items: center;
+    
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
+
+
+
+
+
+/* main  */
+
+
+
+#seco{
+    padding-top: 150px ;
+}
+
+
+
+
+
+#wraper{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#fst{
+    padding: 20px;
+    background-color: rgb(206, 193, 193);
+    
+}
+
+
+
+
+.fst{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+.fst:hover{
+    background-color: rgb(190, 154, 86);
+    color: white;
+}
+
+
+
+
+
+#wraper2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#sst{
+    padding: 20px;
+    background-color: rgb(206, 193, 193);
+    
+}
+
+
+
+
+.fst{
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+.fst:hover{
+    background-color: rgb(190, 154, 86);
+    color: white;
+}
+
+
+
+
+#wraper3{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#tst{
+    padding: 20px;
+    background-color: rgb(206, 193, 193);
+    
+}
+
+
+
+
+.fst{
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+.fst:hover{
+    background-color: rgb(190, 154, 86);
+    color: white;
+}
+
+
+#wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#f{
+    padding: 20px;
+    background-color: rgb(206, 193, 193);
+}
+
+figure{
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+#wrap2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#s1{
+    padding: 20px;
+    background-color: rgb(206, 193, 193);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+
+footer{ 
+    padding: 20px ;
+    height: 0px auto;
+    background-color: black;
+    
+}
+
+#fottermain{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.h{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}

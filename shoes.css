@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin:0px;
+    background-color: rgb(245, 245, 166);
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   
+    align-items: center;
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
+
+
+
+
+
+/* main  */
+
+
+
+
+main{
+    padding-top: 190px;
+}
+
+
+
+#wrap1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.img{
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px ;
+    background-color: greenyellow;
+    margin: 10px;
+}
+
+.fst{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+.fst:hover{
+    background-color: rgb(224, 220, 220);
+    color: black;
+}
+
+
+
+
+.s:hover{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+footer{ 
+    padding: 20px ;
+    height: 0px auto;
+    background-color: black;
+    
+}
+
+#fottermain{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.h{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+
+
+

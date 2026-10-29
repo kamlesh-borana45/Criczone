@@ -27,23 +27,90 @@
        }
 
 
+       *{
+    padding: 0px;
+    margin:0px;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+     
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   
+    align-items: center;
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
+main{
+    margin-top: 150px;
+}
 
 
     </style>
 </head>
 <body>
+
+    <header>
+        <div id="navigation">
+            <div id="nav1"><img src="mainlogo.png" height="50px " width="50px "></div>
+            <div id="nav2">
+                <a href="index.html" class="n" target="_main">Home</a>
+                <a href="bat.html"  class="n" target="_main">BAT</a>
+                <a href="ball.html"  class="n" target="_main">BALL</a>
+                <a href="kit.html"  class="n" target="_main">KIT</a>
+                <a href="teamwear.html"  class="n" target="_main">TEAMWEAR</a>
+                <a href="SHOES.html"  class="n" target="_main">SHOES</a>
+            </div>
+            <div id="nav3"><a href="login or singe up.html"><img src="logo.png" height="40px " width="40px "></a></div>
+        </div>
+    </header>
     
+    
+     <br/> <br/> 
+    <main>
     <div id="container">
-        <h3>CREDIT & DEBIT CARDS</h3>
+        <h3 style="margin-bottom: 10px;">CREDIT & DEBIT CARDS</h3>
         <form action="action.php" method="post">
 
             <a class="a" href="#">Add new credit or debit card</a> <br/> <br/> <br/>
 
 
             <label>MORE WAYS TO PAY</label> <br/>
-            <div class="p"><input  type="radio" value="EMI">EMI </div><BR/> 
-            <div class="p"><input  type="radio" value="NET BANKING">NET BANKING </div><BR/> 
-            <div class="p"><input  type="radio" value="CASH ON DELIVERY">CASH ON DELIVERY</div> <BR/> <br/>
+            <div class="p"><input  type="radio" value="EMI" name="payment">EMI </div><BR/> 
+            
+            <div class="p"><input  type="radio" value="NET BANKING" name="payment">NET BANKING </div><BR/> 
+
+            <div class="p"><input  type="radio" value="CASH ON DELIVERY" name="payment">CASH ON DELIVERY</div> <BR/> <br/>
 
             <p>Add Gift Card or Promo Code</p> 
             <input type="text" > <br/><br/>
@@ -51,7 +118,7 @@
             <a href="confirmorder.html" target="_main" style="text-decoration: none; padding: 10px; background: yellow; color: black; border: 1px solid black; border-radius: 10px; ">Continue</a>
 
         </form>
-    </div>
+    </div></main>
     
 
 </body>

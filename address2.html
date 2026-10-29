@@ -6,6 +6,53 @@
     <title>Address</title>
     <style>
 
+        *{
+    padding: 0px;
+    margin:0px;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   
+    align-items: center;
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
+main{
+    margin-top:100px;
+}
 
         #container{
             width: 400px;
@@ -50,6 +97,24 @@
     </style>
 </head>
 <body>
+    <header>
+        <div id="navigation">
+            <div id="nav1"><img src="mainlogo.png" height="50px " width="50px "></div>
+            <div id="nav2">
+                <a href="index.html" class="n" target="_main">Home</a>
+                <a href="bat.html"  class="n" target="_main">BAT</a>
+                <a href="ball.html"  class="n" target="_main">BALL</a>
+                <a href="kit.html"  class="n" target="_main">KIT</a>
+                <a href="teamwear.html"  class="n" target="_main">TEAMWEAR</a>
+                <a href="SHOES.html"  class="n" target="_main">SHOES</a>
+            </div>
+            <div id="nav3"><a href="login or singe up.html"><img src="logo.png" height="40px " width="40px "></a></div>
+        </div>
+    </header>
+    
+    
+     <br/> <br/> 
+    <main>
     <div id="container">
     <h1>Enter a new delivery address</h1>
 
@@ -119,7 +184,7 @@
 
     </form>
     </div>
-
+</main>
             
 
 </body>

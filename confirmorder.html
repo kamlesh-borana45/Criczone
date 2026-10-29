@@ -6,7 +6,53 @@
     <title>Confirm order</title>
     <style>
 
+
+        *{
+    padding: 0px;
+    margin:0px;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   
+    align-items: center;
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
+
         #main{
+            padding-top:200px;
             width: 400px;
             display: flex;
             justify-content: space-evenly;
@@ -16,6 +62,24 @@
     </style>
 </head>
 <body>
+
+    <header>
+        <div id="navigation">
+            <div id="nav1"><img src="mainlogo.png" height="50px " width="50px "></div>
+            <div id="nav2">
+                <a href="index.html" class="n" target="_main">Home</a>
+                <a href="bat.html"  class="n" target="_main">BAT</a>
+                <a href="ball.html"  class="n" target="_main">BALL</a>
+                <a href="kit.html"  class="n" target="_main">KIT</a>
+                <a href="teamwear.html"  class="n" target="_main">TEAMWEAR</a>
+                <a href="SHOES.html"  class="n" target="_main">SHOES</a>
+            </div>
+            <div id="nav3"><a href="login or singe up.html"><img src="logo.png" height="40px " width="40px "></a></div>
+        </div>
+    </header>
+    
+    
+     <br/> <br/> 
     
     <div id="main">
         <div class="left">
@@ -39,7 +103,7 @@
         </div>
         
     </div> <br/> 
-    <center><a href="index.html" style="background-color: yellow; text-decoration: none; color: black; padding: 20px; border: 1px solid black; border-radius: 10px;" onclick="alert('order placed')">Pay with Net Banking</a></center>
+    <center><a href="index.html" style="background-color: yellow; text-decoration: none; color: black; padding: 20px; border: 1px solid black; border-radius: 10px; margin-top: 10px;" onclick="alert('order placed')">Completed successfully</a></center>
     
 </body>
 </html>

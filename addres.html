@@ -5,6 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery address</title>
     <style>
+        *{
+    padding: 0px;
+    margin:0px;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+/* header  */
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     left: 0px ;
+     right: 0px ;
+     box-shadow: 0px 4px 100px black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+   
+    align-items: center;
+}
+
+
+.n{
+    color: orangered;
+    padding: 20px ;
+}
+
+.n:hover{
+    border-bottom:5px solid orangered;
+    padding: 25px;
+}
+
 
         .a{
             text-decoration: none;
@@ -14,21 +57,41 @@
             border-radius: 10px;
             color:black;
         }
-
+        main{
+            margin-top: 200px;
+        }
 
     </style>
 </head>
 <body>
+
+    <header>
+        <div id="navigation">
+            <div id="nav1"><img src="mainlogo.png" height="50px " width="50px "></div>
+            <div id="nav2">
+                <a href="index.html" class="n" target="_main">Home</a>
+                <a href="bat.html"  class="n" target="_main">BAT</a>
+                <a href="ball.html"  class="n" target="_main">BALL</a>
+                <a href="kit.html"  class="n" target="_main">KIT</a>
+                <a href="teamwear.html"  class="n" target="_main">TEAMWEAR</a>
+                <a href="SHOES.html"  class="n" target="_main">SHOES</a>
+            </div>
+            <div id="nav3"><a href="login or singe up.html"><img src="logo.png" height="40px " width="40px "></a></div>
+        </div>
+    </header>
+    
+    
+     <br/> <br/>
     <center>
-        
+     <main>
     <h1>Select delivery address</h1>
     <p><b>All addresses(0)</b></p>
     <hr>
-    <h3>Add delivery address </h3>
-    <a class="a" href="address2.html" target="_main">Add a new delivery address</a> 
+    <h3 style="margin-top: 10px; margin-bottom: 20px;">Add delivery address </h3>
+    <a class="a"  href="address2.html" target="_main">Add a new delivery address</a> 
   
-    <p>or</p>
+    <p style="margin-top: 10px;">or</p>
     <a href="index.html">Back</a>
-    
+    </main>   
 </body>
 </html>
